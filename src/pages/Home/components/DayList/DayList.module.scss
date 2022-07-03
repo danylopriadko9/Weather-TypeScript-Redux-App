@@ -1,0 +1,70 @@
+@import '../../../../styles/variables.scss';
+.day__list_container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  height: 220px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.day__list_item {
+  background-color: $day-list-item-color;
+  border-radius: $border-radius;
+  height: 150px;
+  width: 11%;
+  height: 180px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .day {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .day__info {
+    font-weight: 400;
+    font-size: 14px;
+    color: $color;
+  }
+}
+
+.tabs_container {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  .left_part {
+    display: flex;
+    div {
+      width: 150px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: $box-shadow;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .cancel {
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: $box-shadow;
+    border-radius: 10px;
+  }
+}

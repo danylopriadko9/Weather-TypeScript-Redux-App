@@ -1,0 +1,11 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
